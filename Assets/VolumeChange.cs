@@ -18,8 +18,6 @@ public class VolumeChange : MonoBehaviour
         slider.onValueChanged.AddListener(changeMasterVolume);
         sliderMusic.onValueChanged.AddListener(changeMusicVolume);
         sliderSFX.onValueChanged.AddListener(changeSFXVolume);
-
-        
     }
 
     // Update is called once per frame
