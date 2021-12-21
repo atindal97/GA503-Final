@@ -26,9 +26,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 218359649847710218}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.000000052114, y: 0, z: -0.000000096371}
-  m_LocalScale: {x: 0.12567271, y: 0.38646284, z: 0.12567271}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.000000020563, y: 0, z: -0.000000025694}
+  m_LocalScale: {x: 0.66343, y: 0.66343, z: 0.66343}
   m_Children:
   - {fileID: 5375097024446680723}
   m_Father: {fileID: 4218047474468297080}
@@ -126,7 +126,7 @@ Transform:
   m_GameObject: {fileID: 5669789453046757211}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.0487516, y: 3.0699399, z: 1.2148347}
+  m_LocalScale: {x: 0.71130985, y: 2.5082722, z: 0.71130985}
   m_Children:
   - {fileID: 5439688047484345824}
   m_Father: {fileID: 0}
@@ -194,7 +194,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 2, y: 2, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &8831489541731469720
 Rigidbody:
@@ -225,7 +225,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   projectile: {fileID: 5669789453046757211}
-  flightspeed: 5
+  flightspeed: 50
   lifetime: 10
   currLifeTime: 0
 --- !u!1 &7826736692109978856

@@ -24,7 +24,7 @@ public class lazerCollide : MonoBehaviour
         
         currLifeTime += Time.deltaTime;
 
-        transform.Translate(Vector3.forward * flightspeed * Time.deltaTime);
+        transform.Translate(Vector3.up * flightspeed * Time.deltaTime);
 
         if (currLifeTime > lifetime)
         {
